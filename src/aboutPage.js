@@ -1,5 +1,5 @@
 const aboutPage = document.createElement("div");
-aboutPage.classList.add = "about-page";
+aboutPage.classList.add("about-page");
 
 const aboutText = document.createElement("h1");
 aboutText.textContent = "About The Protein Bar";
@@ -13,7 +13,7 @@ aboutPage.appendChild(aboutText2);
 const contact = document.createElement("div");
 contact.classList.add("contact");
 
-const contactText = document.createElement("p");
+const contactText = document.createElement("h2");
 contactText.textContent = "Contact Us";
 contact.appendChild(contactText);
 const phoneNumber = document.createElement("p");
