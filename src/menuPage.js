@@ -32,7 +32,7 @@ function getMenuPage() {
 
 items.forEach((elem) => {
   const dishDiv = document.createElement("div");
-  dishDiv.classList.add = "dish-div";
+  dishDiv.classList.add("dish-div");
   const dishName = document.createElement("h2");
   dishName.textContent = elem.dishName;
   dishDiv.appendChild(dishName);
