@@ -11,7 +11,7 @@ aboutText2.textContent =
 aboutPage.appendChild(aboutText2);
 
 const contact = document.createElement("div");
-contact.classList.add = "contact";
+contact.classList.add("contact");
 
 const contactText = document.createElement("p");
 contactText.textContent = "Contact Us";
