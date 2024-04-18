@@ -24,8 +24,6 @@ image1.src = muscleBullDog;
 homePage.appendChild(imageDiv);
 imageDiv.appendChild(image1);
 
-//create home page button div
-
 export function getHomePage() {
   return homePage;
 }
