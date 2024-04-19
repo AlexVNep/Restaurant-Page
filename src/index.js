@@ -1,6 +1,7 @@
 import { getHomePage } from "./displayHome.js";
 import { getMenuPage } from "./menuPage.js";
 import { getAboutPage } from "./aboutPage.js";
+import gym from "./images/gym.jpg";
 import "./style.css";
 
 const content = document.querySelector("#content");
@@ -22,6 +23,10 @@ aboutBtn.addEventListener("click", (event) => {
   content.replaceChildren();
   content.append(getAboutPage());
 });
+
+const gymImage = new Image();
+gymImage.src = gym;
+gymImage.id = "gym-image";
 
 content.append(getHomePage());
 console.log("I am updating");
