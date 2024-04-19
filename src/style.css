@@ -2,8 +2,14 @@ html,
 body {
   display: grid;
   margin: 0;
+}
 
-  border: 5px black solid;
+body {
+  background-image: url("./images/gym.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 header {
@@ -12,8 +18,16 @@ header {
   align-items: center;
   height: 50%;
   padding: 10px;
-  background-color: rgb(255, 255, 255);
-  border: 5px solid red;
+}
+
+button {
+  background-color: greenyellow;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  height: 50px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 nav {
@@ -22,26 +36,22 @@ nav {
   align-items: center;
   width: 50%;
   padding: 10px;
-  background-color: rgb(255, 255, 255);
-  border: 5px solid blue;
 }
 
 .restaurant-title {
   font-size: 85px;
   font-weight: bold;
-  color: #000000;
+  color: blueviolet;
   text-align: center;
-  border: 5px solid green;
+  text-shadow: 2px 2px greenyellow;
 }
 
 .text-container {
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  background-color: rgb(255, 255, 255);
-  border: 5px solid purple;
+  color: blueviolet;
+  font-size: 25px;
 }
 
 .image-container {
@@ -49,8 +59,12 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: rgb(255, 255, 255);
-  border: 5px solid yellow;
+}
+
+.image-container > img {
+  width: 30%;
+  height: 30%;
+  border-radius: 10px;
 }
 
 .dish-div {
@@ -58,8 +72,6 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: rgb(255, 255, 255);
-  border: 5px solid black;
 }
 
 .dish-div > img {
@@ -68,7 +80,6 @@ nav {
   align-items: center;
   width: 300px;
   height: 300px;
-  border: 5px solid black;
   border-radius: 10px;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
@@ -77,43 +88,42 @@ nav {
   font-size: 15px;
   font-weight: bold;
   width: 300px;
-  color: #000000;
+  color: #fff;
   text-align: center;
-  border: 5px solid green;
 }
 
 .dish-div > h2 {
   width: 300px;
   font-size: 25px;
   font-weight: bold;
-  color: #000000;
+  color: #fff;
   text-align: center;
 }
 
 .about-page > h1 {
   font-size: 50px;
   font-weight: bold;
-  color: #000000;
+  color: #fff;
   text-align: center;
 }
 
 .about-page > p {
   font-size: 25px;
   font-weight: bold;
-  color: #000000;
+  color: #fff;
   text-align: center;
 }
 
 .contact > h2 {
   font-size: 25px;
   font-weight: bold;
-  color: #000000;
+  color: #fff;
   text-align: center;
 }
 
 .contact > p {
   font-size: 20px;
   font-weight: bold;
-  color: #000000;
+  color: #fff;
   text-align: center;
 }
